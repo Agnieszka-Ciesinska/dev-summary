@@ -8,6 +8,51 @@
 
 .bg-img img {
     width: 100%;
-    height: 100vh;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header h5 {
+    font-size: 40px;
+    font-family: 'Roboto Serif', serif;
+}
+
+.header h1 {
+    font-size: 75px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header .btn {
+    font-family: 'Montserrat', sans-serif; 
+    width: 240px;
+    height: 65px;
+    font-size: 18px;
+}
+
+.header span {
+    font-size: 18px;
+}
+
+.services h2 {
+    text-align: center;
+}
+
+.card i {
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid #fed136;
+    color: #fed136;
+    width: 40px;
+    height: 39px;
+    line-height: 30px;
+    font-size: 20px;
+}
+.services p {
+    color:gray;
+}
+
+.our-portfolio img {
+    width: 100%;
+    height: 300px;
     object-fit: cover;
 }
