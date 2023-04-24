@@ -29,8 +29,10 @@
     font-size: 18px;
 }
 
-.header span {
-    font-size: 18px;
+.header a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .services h2 {
@@ -56,3 +58,21 @@
     height: 300px;
     object-fit: cover;
 }
+
+@media (max-width: 768px) {
+
+    .header h1 {
+        font-size: 30px;
+    }
+
+    .header h5 {
+        font-size: 15px;
+    }
+
+    .header a {
+        width: 120px;
+        height: 32px;
+        font-size: 9px;
+    }
+}
+
